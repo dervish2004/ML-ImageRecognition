@@ -3,7 +3,7 @@
 A production-ready implementation of the Machine Learning Image Recognition Service project.
 
 ## Demo
-- Live URL: (To be filled after Vercel deployment)
+- Live URL: (https://machine-learning-image-recognition.onrender.com)
 
 ## Features
 - **Object Detection:** Identifies and classifies objects within an image using a pre-trained machine learning model.
@@ -14,7 +14,7 @@ A production-ready implementation of the Machine Learning Image Recognition Serv
 ***
 
 ## 🚀 Live Demo
-- **Live URL:** (To be filled after Vercel deployment)
+- **Live URL:** (https://machine-learning-image-recognition.onrender.com)
 
 ***
 

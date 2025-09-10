@@ -4,3 +4,4 @@ ultralytics
 opencv-python
 numpy
 werkzeug
+gunicorn  <-- Add this line if it's missing

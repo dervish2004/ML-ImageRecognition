@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Image Recognition</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        .container { max-width: 800px; margin: auto; }
+        h1, h2 { text-align: center; }
+        #image-upload-form { text-align: center; padding: 2em; border: 2px dashed #ccc; cursor: pointer; }
+        #image-preview { max-width: 100%; display: block; margin: 1em auto; }
+        #predictions-container { margin-top: 2em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ML Image Recognition System</h1>
+        <p>Upload an image to detect objects within it.</p>
+
+        <form id="image-upload-form">
+            <label for="image-file">
+                <input type="file" id="image-file" name="file" accept="image/*" style="display: none;">
+                <p>Click here or drag & drop an image to upload</p>
+            </label>
+        </form>
+
+        <img id="image-preview" src="#" alt="Image Preview" style="display: none;">
+
+        <div id="predictions-container" style="display: none;">
+            <h2>Predictions</h2>
+            <ul id="predictions-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

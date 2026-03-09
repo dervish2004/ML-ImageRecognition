@@ -2,19 +2,12 @@
 
 A production-ready implementation of the Machine Learning Image Recognition Service project.
 
-## Demo
-- Live URL: (https://machine-learning-image-recognition.onrender.com)
 
 ## Features
 - **Object Detection:** Identifies and classifies objects within an image using a pre-trained machine learning model.
 - **RESTful API:** Provides a clean and accessible API endpoint (`/predict`) for image analysis.
 - **Persistent Storage:** Stores uploaded images and their corresponding annotated outputs for review.
 - **Visual Feedback:** Displays both the original uploaded image and the processed output with bounding boxes.
-
-***
-
-## 🚀 Live Demo
-- **Live URL:** (https://machine-learning-image-recognition.onrender.com)
 
 ***
 
